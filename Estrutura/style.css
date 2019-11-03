@@ -46,7 +46,14 @@ display: flex;
     text-decoration: white;
 }
 .h1{
-    text-decoration: white;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: inherit;
+}
+
+.ponto{
+    color: green;
 }
 
 .section1{
