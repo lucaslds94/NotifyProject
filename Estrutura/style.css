@@ -12,7 +12,7 @@ body{
                         'rodape';
  
     grid-template-columns: 100%;
-    grid-template-rows: 10px 500px 300px 400px 10vh;
+    grid-template-rows: 10px 500px 300px 380px 400px 150px ;
 }
 
 .navbar{
@@ -21,6 +21,7 @@ body{
     
 }
 
+/*===================HEADER====================== */
 .banner1{
     display: flex;
     grid-area: 'header';
@@ -78,6 +79,7 @@ display: flex;
     color: springgreen;
 }
 
+/*===================MAIN====================== */
 .section1{
     grid-area: 'section1';
     display: flex;
@@ -129,8 +131,68 @@ display: flex;
     font-size: 20px;
 }
 
+/*===================SECTION2====================== */
+
 .section2{
     display: flex;
     grid-area: 'section2';
     background-color: #E3E3E3;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.div2{
+    margin: 10px 40px 10px 40px;
+    width: 35vw;
+}
+
+.imgsection2{
+height: 255px; 
+}
+
+.textsec2{
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    opacity: .50;
+    font-size: 15px;
+    text-align:left;
+}
+
+.section3{
+    grid-area: 'section3';
+    flex-direction: column;
+    justify-content: center;
+    display: flex;    
+   align-items: center;
+}
+.imgsec3{
+    height: 40px;
+    width: 40px;
+    background-image: url(../imagens/pessoa1.jpg);
+    background-repeat: repeat-x;
+}
+.iconesec3{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    padding: 10px;
+    opacity: .50;
+}
+
+
+.rodape{
+    grid-area: 'rodape';
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.linksrodape{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+  
 }
