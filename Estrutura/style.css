@@ -12,7 +12,7 @@ body{
                         'rodape';
  
     grid-template-columns: 100%;
-    grid-template-rows: 10px 500px 15vh 20vh 10vh;
+    grid-template-rows: 10px 500px 300px 20vh 10vh;
 }
 
 .navbar{
@@ -60,7 +60,29 @@ display: flex;
     grid-area: 'section1';
     display: flex;
     background-color: white;
-
+    justify-content: space-around;
+    align-items:center;
+}
+.icone1{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:limegreen;
+    padding: 20px;
+}
+.icone2{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: limegreen;
+    padding: 20px;
+}
+.icone3{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: limegreen;
+    padding: 20px;
 }
 
 .section2{
