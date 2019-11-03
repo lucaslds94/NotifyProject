@@ -24,7 +24,7 @@ body{
 .banner1{
     display: flex;
     grid-area: 'header';
-    background-image:url(imagens/banner.png);
+    background-image:url(../imagens/banner.png);
     justify-content: center;
     
  
