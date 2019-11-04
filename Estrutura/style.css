@@ -186,15 +186,19 @@ height: 255px;
 
 .section3{
     grid-area: 'section3';
+}
+.section3 div{
     flex-direction: column;
     justify-content: center;
     display: flex;    
-   align-items: center;
+    align-items: center;
+    
 }
 .imgsec3{
     height: 40px;
     width: 40px;
     background-image: url(../imagens/pessoa1.jpg);
+    background-repeat: repeat-x;
    
 }
 .iconesec3{
@@ -206,7 +210,9 @@ height: 255px;
     background-color: black;
     
 }
-
+.iconesec3:hover{
+    opacity: .50;
+}
 
 footer{
     grid-area: 'footer';
