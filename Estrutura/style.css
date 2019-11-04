@@ -9,14 +9,14 @@ body{
                         'section1'
                         'section2'
                         'section3'
-                        'rodape';
+                        'footer';
  
-    grid-template-columns: 100%;
+    grid-template-columns: 100vw;
     grid-template-rows: 10px 500px 300px 380px 400px 150px ;
 }
 
 .navbar{
-    background-color: darkgreen;
+    background-color: mediumseagreen;
     grid-area: 'navbar';
     
 }
@@ -38,14 +38,10 @@ body{
     background-color: black;
     padding: 10px;
     opacity: .50;
-}
-.iconesbanner{
     flex-direction: row;
 }
+
 .iconesbanner:hover{
-   
-    background-color: springgreen;
-    
     
     opacity: .50;
 }
@@ -80,7 +76,7 @@ display: flex;
 }
 
 .ponto{
-    color: springgreen;
+    color: mediumseagreen;
 }
 
 /*===================MAIN====================== */
@@ -103,7 +99,7 @@ display: flex;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color:springgreen;
+    background-color:mediumseagreen;
     padding: 20px;
     
     
@@ -112,14 +108,14 @@ display: flex;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: springgreen;
+    background-color: mediumseagreen;
     padding: 20px;
 }
 .icone3{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background-color: springgreen;
+    background-color: mediumseagreen;
     padding: 20px;
 }
 .bloco1{
@@ -127,6 +123,9 @@ display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+}
+.icone2:hover{
+    opacity: .50;
 }
 
 .title2{
@@ -165,17 +164,24 @@ height: 255px;
 .input1{
     padding: 12px;
     border-radius: 10px 0 0 10px;
+    border: 0;
     margin-right: 0;
 }
 .button1{
-    padding: 12px;
-    padding-left: 30px;
+    padding: 11px;
+    width: 90px;
+    border: 0;
     border-radius: 0 10px 10px 0;
     color:white;
     font-weight: bold;
-    background-color: springgreen;
+    background-color: mediumseagreen;
     margin-left: 0;
     font-size: 16px;
+    cursor: pointer;
+    
+}
+.button1:hover{
+    opacity: .50;
 }
 
 .section3{
@@ -189,30 +195,37 @@ height: 255px;
     height: 40px;
     width: 40px;
     background-image: url(../imagens/pessoa1.jpg);
-    background-repeat: repeat-x;
+   
 }
 .iconesec3{
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    background-color: black;
     padding: 10px;
     opacity: .50;
-}
-
-
-.rodape{
-    grid-area: 'rodape';
-    background-color: #E3E3E3;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+    background-color: black;
     
 }
 
-.linksrodape{
+
+footer{
+    grid-area: 'footer';
     display: flex;
-    text-decoration: none;
+    background-color: #E3E3E3;
+    justify-content: center;
     align-items: center;
-  
+    
+}
+
+a.linksrodape{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    opacity: .50;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 20px 0 20px;
+    color: black;
+}
+a.linksrodape:hover{
+    opacity: .20;
 }
