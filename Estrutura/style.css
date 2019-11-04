@@ -42,8 +42,12 @@ body{
 .iconesbanner{
     flex-direction: row;
 }
-.iconesbannser:hover{
+.iconesbanner:hover{
+   
     background-color: springgreen;
+    
+    
+    opacity: .50;
 }
 .mao1{
     height: 420px;
@@ -158,6 +162,21 @@ height: 255px;
     font-size: 15px;
     text-align:left;
 }
+.input1{
+    padding: 12px;
+    border-radius: 10px 0 0 10px;
+    margin-right: 0;
+}
+.button1{
+    padding: 12px;
+    padding-left: 30px;
+    border-radius: 0 10px 10px 0;
+    color:white;
+    font-weight: bold;
+    background-color: springgreen;
+    margin-left: 0;
+    font-size: 16px;
+}
 
 .section3{
     grid-area: 'section3';
@@ -187,6 +206,7 @@ height: 255px;
     background-color: #E3E3E3;
     display: flex;
     justify-content: center;
+    text-decoration: none;
     
 }
 
